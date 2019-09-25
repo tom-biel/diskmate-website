@@ -1,0 +1,10 @@
+
+@import './variables.scss';
+
+@import "~bulma/bulma.sass";
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
