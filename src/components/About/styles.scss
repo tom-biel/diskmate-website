@@ -1,8 +1,54 @@
 
 .appstoreBadge {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.appstoreBadge .badge {
   display: inline-block; 
   overflow: hidden; 
   background: url(http://linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg) 0% 0% / contain no-repeat; 
   width: 205px; 
   height: 60px;
+}
+
+.description {
+  padding-top: 3em;
+}
+
+.test0 {
+  xbackground-color: chartreuse;
+  align-content: center;
+}
+
+.test1 {
+  xbackground-color: cadetblue;
+  width: 100%;
+  text-align: center;
+}
+
+.screenshotBox {
+  xbackground-color: coral;
+  xwidth: 100%;
+  xtext-align: center;
+  xalign-content: center;
+  max-width: 34em;
+  margin: 1em auto;
+}
+
+.checkout {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.devDescription {
+
+}
+
+.operatingSystem {
+  margin-bottom: 0.5em;
+}
+
+.info {
+  padding: 2em;
 }

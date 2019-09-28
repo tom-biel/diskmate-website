@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import "./styles.scss";
 
-const Footer = () => (
+const Footer3 = () => (
   <StaticQuery
     query={graphql`
       query SocialQuery {
@@ -18,8 +18,8 @@ const Footer = () => (
       }
     `}
     render={data => (
-      <footer className="footer center">
-        <div className="content has-text-centered">
+      <footer className="dmfooter center ">
+        <div className=" has-text-centered">
           <p>
             Build with{" "}
             <a
@@ -27,7 +27,7 @@ const Footer = () => (
               rel="noopener noreferrer"
               href={data.site.siteMetadata.gatsby}
             >
-              GatsbyJS2
+              GatsbyJS
             </a>{" "}
             and{" "}
             <a
@@ -47,10 +47,13 @@ const Footer = () => (
             </a>
             .
           </p>
-        </div>
+         
+          <span className="copyright is-size-8 has-text-grey">© 2019 Tom Biel</span>
+
+          </div>
       </footer>
     )}
   />
 )
 
-export default Footer
+export default Footer3

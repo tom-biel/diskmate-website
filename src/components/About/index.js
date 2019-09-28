@@ -1,31 +1,25 @@
 import React from "react";
 import "./styles.scss";
 import Screenshot from "./Screenshot"
+import DevDescription from "./dev_description"
+import AppstoreBadge from "./appstoreBadge"
+import Info from "./info"
 
 function About(props) {
   return (
-    <section class="hero is-medium intro">
-      <div class="hero-body"> 
-        <div class="container is-vertical"> 
-            <div class="columns is-vertical">
-              <div class="column is-4 is-narrow" >
-                <h1>DiskMate is utility App for macOS!2</h1>
-
-                <div class="checkout">
-                  <div class="large-badge">
-                    <a class="appstoreBadge" href="https://apps.apple.com/us/app/diskmate/id1467915119?mt=12">
-                    
-                    </a>
-                    </div>
-                </div>
+    <section class="">
+        <div class="container is-vertical">
+            <div class="columns is-vertical test0">
+              <div class="column is-5 is-narrow is-vertical test1"  >
+                <Info />
+                <AppstoreBadge />
+                <DevDescription />
               </div>
-              <div class="column is-6 is-narrow flex-center">
-                <Screenshot />
-               
+              <div class="column screenshotBox">
+                <Screenshot  />
               </div>
             </div>
         </div>
-      </div>
     </section>
   );
 }

@@ -6,24 +6,26 @@ import { useState } from "react";
 
 function Screenshot(props) {
 
-  const [darkmode, setDarkmode] = useState(true);
+  const [darkmode, setDarkmode] = useState(false);
+
+  const toggleTheme = (e) => {
+    setDarkmode(!darkmode);
+  }
 
   return (
     <div> {}
-    {darkmode ? (
-      <DarkScreenshot />
-    ) : (
-      <LightScreenshot />
-    )}
-
-      <button className={'button is-centered is-dark2 ' + (!darkmode ? 'is-dark' : 'is-dark2')}  onClick={() => setDarkmode(!darkmode)}>
-        <span>{!darkmode ? 'Dark Theme' : 'Light Theme'}</span>
-      </button>
+      {darkmode ? (
+        <DarkScreenshot />
+      ) : (
+        <LightScreenshot />
+      )}
+      <div class="themeButWrapper" >
+        <button className={'button is-centered ' + (!darkmode ? 'is-dark' : '')}  onClick={toggleTheme}>
+          <span>{!darkmode ? 'Dark Theme' : 'Light Theme'}</span>
+        </button>
+     </div>
     </div>
   );
 }
 
 export default Screenshot;
-
-
-// style="display: inline-block; overflow: hidden; background: url(&quot;//linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg&quot;) 0% 0% / contain no-repeat; width: 205px; height: 60px;"
