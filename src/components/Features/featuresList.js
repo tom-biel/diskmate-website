@@ -13,7 +13,7 @@ import ignoreIcon from "../../images/ignore.svg"
   },
   {
     title: "Global Shortcut",
-    description: "Create global shortcut to eject all drives. ",
+    description: "Create a global shortcut to eject all drives. ",
     icon: keyboardIcon,
   },
   {
@@ -28,7 +28,7 @@ import ignoreIcon from "../../images/ignore.svg"
   },
   {
     title: "Status Bar",
-    description: `Launches on system startup and is accessible from Status Bar for quick access`,
+    description: `Launches on system startup and is accessible from Status Bar for quick access.`,
     icon: statusBarIcon,
   },
   {

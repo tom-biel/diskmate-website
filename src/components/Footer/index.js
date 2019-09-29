@@ -18,7 +18,7 @@ const Footer3 = () => (
       }
     `}
     render={data => (
-      <footer className="dmfooter center ">
+      <footer className="footer center ">
         <div className=" has-text-centered">
           <p>
             Build with{" "}
@@ -48,7 +48,7 @@ const Footer3 = () => (
             .
           </p>
          
-          <span className="copyright is-size-8 has-text-grey">© 2019 Tom Biel</span>
+          <span className="is-size-8 has-text-grey">© 2019 Tom Biel</span>
 
           </div>
       </footer>

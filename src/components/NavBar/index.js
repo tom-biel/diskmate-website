@@ -42,7 +42,7 @@ function NavBar(props) {
         className={"navbar-menu " + (isActive ? "is-active" : "")}
       >
         <div class="navbar-start">
-          <a class="navbar-item">Home</a>
+          
         </div>
         <div class="navbar-end">
           <div class="navbar-item">

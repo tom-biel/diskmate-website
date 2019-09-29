@@ -9,10 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 //import Footer from '../footer';
-import Header from "../header";
+import NavBar from "../NavBar"
+import Footer from "../Footer"
 
 import "./layout.css"
-import "../style.scss"
+import "./style.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,12 +28,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-       
-      >
+    <NavBar />
+    <main class="hero">
+      <div class="hero-body">
         <main>{children}</main>
-        
       </div>
+    </main>
+    <Footer />
     </>
   )
 }
