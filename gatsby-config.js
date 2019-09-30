@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `DiskMate - disk utility for macOS`,
-    description: `Statusbar utility for macOS will unmount all drives with a click of a button, or a keyboard shortcut.`,
+    title: `DiskMate for macOS`,
+    description: `Eject all removable drives with a click or a keyboard shortcut.`,
     author: `Tom Biel`,
-    siteUrl: `https://diskmate.binarypaint.com`,
-    keywords: `macOS, osx, eject, unmount, drive, drives, disk, all, app, application, utility`,
+    siteUrl: `https://diskmate.tombiel.com`,
+    keywords: `macOS, osx, eject, unmount, drive, drives, disk, all, app, application, utility, status bar, dark theme`,
     twitter: 'https://twitter.com/diskmate',
 		github: `https://github.com/tom-biel/diskmate-website`,
     medium: 'https://medium.com/@tombiel',
@@ -47,7 +47,7 @@ module.exports = {
     {
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
-				trackingId: 'UA-XXXXXXXX-X',
+				trackingId: 'UA-149020095-1',
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}

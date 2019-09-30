@@ -2,7 +2,7 @@
 
 DiskMate landing page using GatsbyJS and Bulma. Feel free to use this as a template for your projects.
 
-[![screenshot](screenshot.png 'screenshot')](https://diskmate-website.onrender.com)
+[![screenshot](screenshot.png 'screenshot')](https://diskmate.tombiel.com)
 
 1. **Install dependencies.**
 
